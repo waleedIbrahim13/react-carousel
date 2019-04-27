@@ -17,7 +17,7 @@ jobs:
 
   publish_package:
     docker:
-      - image: circleci/node:8.15
+      - image: circleci/node:8.16
     steps:
       - checkout
       - run:
